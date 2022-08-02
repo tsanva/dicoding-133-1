@@ -1,0 +1,60 @@
+theme = "showfolio"
+languageCode = "en-us"
+baseurl = "https://dicoding.vasant.xyz"
+title = "profil vasant"
+
+
+[params]
+  name = "profil vasant"
+  description = "web profile for vasant"
+  author = "vasant paradissa"
+  authorEmail = "name@example.com"
+  authorImage = "https://storage.googleapis.com/vasant-dicoding-133-1/5755square.JPEG"
+  autoDarkMode = true
+
+  copyright = "Copyright © 2021 - vasant paradissa · All rights reserved"
+  favicon = "./static/favicon.ico"
+
+[params.homepage]
+  title = "Halo 👋, saya Vasant"
+  tagline = "Back-end developer"
+  description = "Keahlian saya adalah membuat back-end aplikasi web dan membuat infrastruktur aplikasi."
+  contact = "https://twitter.com/"
+
+# [params.homepage.codepen]
+#   username = "apvarun"
+#   pens = ["MQaRKL", "RxodrP", "BmXGdm", "wdVypQ"]
+
+[params.homepage.resume]
+  skills = ["Node.js", "TypeScript", "Python", "Linux", "Golang"]
+
+[[params.homepage.resume.work]]
+  name = "Google"
+  role = "Site Reliability Engineer"
+  duration = "Juli 2022 - sekarang"
+
+[[params.homepage.resume.work]]
+  name = "NASA"
+  role = "Web Developer"
+  duration = "September 2021 - Juli 2022"
+
+[[params.homepage.resume.courses]]
+  name = "Cloud Computing"
+  provider = "Bangkit Academy"
+  duration = "Februari 2022 - Juli 2022"
+
+[params.homepage.social]
+  twitter = "https://twitter.com/"
+  linkedin = "https://linkedin.com/in/"
+  github = "https://github.com/"
+  medium = "https://medium.com/"
+  reddit = "https://reddit.com/"
+  dribbble = "https://dribbble.com/"
+
+[build]
+  writeStats = true
+
+# syntax highlight settings
+[markup]
+  [markup.highlight]
+    style = "dracula"
