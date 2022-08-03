@@ -5,3 +5,20 @@ handlers:
   - url: /
     static_files: public/index.html
     upload: public/index.html
+  - url: /categories
+    static_dir: public/categories
+  - url: /css
+    static_dir: public/css
+  - url: /fonts
+    static_dir: public/fonts
+  - url: /tags
+    static_dir: public/tags
+  - url: /404.html
+    static_files: public/404.html
+    upload: public/404.html
+  - url: /favicon.ico
+    static_files: public/favicon.ico
+    upload: public/favicon.ico
+  - url: /sitemap.xml
+    static_files: public/sitemap.xml
+    upload: public/sitemap.xml
